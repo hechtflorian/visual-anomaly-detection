@@ -1,6 +1,6 @@
 # Visual Anomaly Detection Benchmark with Industrial Images
 
-This is a simple industrial benchmark for unsupervised anomaly detection models using Anomalib.
+This is a simple industrial benchmark to study unsupervised anomaly detection models using Anomalib.
 The model performance is evaluated in terms of accuracy and efficiency, focusing on the classification task.
 To measure the model accuracy, the following Metrics are used: AU-ROC, AU-PR, F1Score.
 For the model efficiency, the latency and the throughput is measured.
