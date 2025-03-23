@@ -29,9 +29,9 @@ To obtain and check the results for each model and image-size, all the models ca
 4. Run the cells to get the Results
 
 ## References
-Anomalib library von Samet et al. (2022), https://github.com/openvinotoolkit/anomalib
-MVTec AD von Bergman et al. (2021)
-Rubber Mats Dataset von Data Spree GmbH: https://www.data-spree.com/de
+- Anomalib library von Samet et al. (2022), https://github.com/openvinotoolkit/anomalib
+- MVTec AD von Bergman et al. (2021)
+- Rubber Mats Dataset von Data Spree GmbH: https://www.data-spree.com/de
 
 Akcay, Samet, Dick Ameln, Ashwin Vaidya, Barath Lakshmanan, Nilesh Ahuja und Utku
 Genc (2022). „Anomalib: A Deep Learning Library for Anomaly Detection“. In: 2022
