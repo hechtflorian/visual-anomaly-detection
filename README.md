@@ -12,7 +12,7 @@ To obtain and check the results for each model and image-size, all the models ca
 - PatchCore (10% and 1% variants)
 
 ## Supported Datasets
-- MVTec AD (automatically downloaded if not present)
+- MVTec AD (automatically downloaded if not present. You can also find the dataset at: https://www.mvtec.com/company/research/datasets/mvtec-ad)
 - Rubber Mats (needs manual download. You can contact Data Spree GmbH to get access to the dataset: https://www.data-spree.com/de/kontakt)
 - MVTec Multiclass (needs to be downloaded and set up)
 
