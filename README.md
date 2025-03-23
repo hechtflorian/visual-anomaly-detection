@@ -27,3 +27,22 @@ To obtain and check the results for each model and image-size, all the models ca
 2. Open the notebook `anomalib_benchmark.ipynb`
 3. Modify the configuration parameters at the top
 4. Run the cells to get the Results
+
+## References
+Anomalib library von Samet et al. (2022): https://github.com/openvinotoolkit/anomalib
+
+Akcay, Samet, Dick Ameln, Ashwin Vaidya, Barath Lakshmanan, Nilesh Ahuja und Utku
+Genc (2022). „Anomalib: A Deep Learning Library for Anomaly Detection“. In: 2022
+IEEE International Conference on Image Processing (ICIP). IEEE, S. 1706–1710. isbn:
+978-1-6654-9620-9.  doi: 10.1109/ICIP46576.2022.9897283
+
+BibTeX:
+```bibtex
+@inproceedings{akcay2022anomalib,
+  title={Anomalib: A deep learning library for anomaly detection},
+  author={Akcay, Samet and Ameln, Dick and Vaidya, Ashwin and Lakshmanan, Barath and Ahuja, Nilesh and Genc, Utku},
+  booktitle={2022 IEEE International Conference on Image Processing (ICIP)},
+  pages={1706--1710},
+  year={2022},
+  organization={IEEE}
+}
