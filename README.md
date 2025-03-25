@@ -1,10 +1,10 @@
 # Visual Anomaly Detection Benchmark with Industrial Images
 
-This is a simple industrial benchmark used to study unsupervised anomaly detection models using Anomalib.
+This is a simple industrial benchmark to study unsupervised anomaly detection models using Anomalib.
 The model performance is evaluated in terms of accuracy and efficiency, focusing on the classification task.
 To measure the model accuracy, the following Metrics are used: AU-ROC, AU-PR, F1Score.
 For the model efficiency, the latency and the throughput is measured.
-To obtain and check the results for each model and image-size, all the models can be tested seperately.
+All the models can be tested seperately to evaluate their model performance.
 
 ## Supported Models
 - EfficientAD (S and M variants)
@@ -13,8 +13,8 @@ To obtain and check the results for each model and image-size, all the models ca
 
 ## Supported Datasets
 - MVTec AD (automatically downloaded if not present. You can also find the dataset at: https://www.mvtec.com/company/research/datasets/mvtec-ad)
-- Rubber Mats (needs manual download. You can contact Data Spree GmbH to get access to the dataset: https://www.data-spree.com/de/kontakt)
-- MVTec Multiclass (needs to be downloaded and set up)
+- Rubber Mats (needs manual download. You can contact Data Spree GmbH to get your access to the dataset: https://www.data-spree.com/de/kontakt)
+- MVTec AD Multiclass (MVTec AD will be downloaded automatically if not present, while the multi-class folders need setup)
 
 ## Requirements
 - Python 3.8+
@@ -28,10 +28,22 @@ To obtain and check the results for each model and image-size, all the models ca
 3. Modify the configuration parameters at the top
 4. Run the cells to get the Results
 
+Benchmark-Configuration:
+- First, please check if the requirements are installed correctly. If you are having trouble, please make sure to run the problem fixes in the installation part at the top.
+- Then, choose the benchmark dataset. For MVTec AD, you should also configure the category.
+- Select model and image-size.
+- Optionally provide your dataset root. If you do not have the MVTec AD dataset, it will be downloaded automatically.
+- Also, you can optionally connect Comet Logger for Experiment management.
+- Now you can run the Benchmark. Please use the GPU for optimal results.
+Note: For the efficiency measurement, 100 runs are configured for demo cases. To get proper results, 1000 runs should be configured instead.
+
 ## References
 - Anomalib library von Samet et al. (2022), https://github.com/openvinotoolkit/anomalib
 - MVTec AD von Bergman et al. (2021)
-- Rubber Mats Dataset von Data Spree GmbH: https://www.data-spree.com/de
+- Rubber Mats Dataset (© 2024 Data Spree GmbH): https://www.data-spree.com/de
+
+Please contact Data Spree to get your access to the Rubber Mats Dataset: https://www.data-spree.com/de/kontakt
+
 
 Akcay, Samet, Dick Ameln, Ashwin Vaidya, Barath Lakshmanan, Nilesh Ahuja und Utku
 Genc (2022). „Anomalib: A Deep Learning Library for Anomaly Detection“. In: 2022
