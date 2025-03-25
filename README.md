@@ -39,8 +39,8 @@ Benchmark-Configuration:
 Note: For the efficiency measurement, 100 runs are configured for demo cases. To get proper results, 1000 runs should be configured instead.
 
 ## References
-- Anomalib library von Samet et al. (2022), https://github.com/openvinotoolkit/anomalib
-- MVTec AD von Bergman et al. (2021)
+- Anomalib library, vgl. Samet et al. (2022): https://github.com/openvinotoolkit/anomalib
+- MVTec AD, vgl. Bergmann et al. (2021): https://www.mvtec.com/company/research/datasets/mvtec-ad
 - Rubber Mats Dataset (© 2024 Data Spree GmbH): https://www.data-spree.com/de
 
 Please contact Data Spree to get your access to the Rubber Mats Dataset: https://www.data-spree.com/de/kontakt
