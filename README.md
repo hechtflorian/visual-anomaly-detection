@@ -4,7 +4,7 @@ This is a simple industrial benchmark to study unsupervised anomaly detection mo
 The model performance is evaluated in terms of accuracy and efficiency, focusing on the classification task.
 To measure the model accuracy, the following Metrics are used: AU-ROC, AU-PR, F1Score.
 For the model efficiency, the latency and the throughput is measured.
-All the models can be tested seperately to evaluate their model performance.
+All the models can be tested seperately on the datasets to evaluate their model performance and check.
 
 ## Models
 - EfficientAD (S and M variants)
