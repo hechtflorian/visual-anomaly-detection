@@ -6,12 +6,12 @@ To measure the model accuracy, the following Metrics are used: AU-ROC, AU-PR, F1
 For the model efficiency, the latency and the throughput is measured.
 All the models can be tested seperately to evaluate their model performance.
 
-## Supported Models
+## Models
 - EfficientAD (S and M variants)
-- FastFlow
 - PatchCore (10% and 1% variants)
+- FastFlow
 
-## Supported Datasets
+## Datasets
 - MVTec AD (automatically downloaded if not present. You can also find the dataset at: https://www.mvtec.com/company/research/datasets/mvtec-ad)
 - Rubber Mats (needs manual download. You can contact Data Spree GmbH to get your access to the dataset: https://www.data-spree.com/de/kontakt)
 - MVTec AD Multiclass (MVTec AD will be downloaded automatically if not present, while the multi-class folders need setup)
