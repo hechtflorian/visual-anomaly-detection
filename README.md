@@ -35,6 +35,7 @@ Benchmark-Configuration:
 - Optionally provide your dataset root. If you do not have the MVTec AD dataset, it will be downloaded automatically.
 - Also, you can optionally connect Comet Logger for Experiment management.
 - Now you can run the Benchmark. Please use the GPU for optimal results.
+
 Note: For the efficiency measurement, 100 runs are configured for demo cases. To get proper results, 1000 runs should be configured instead.
 
 ## References
