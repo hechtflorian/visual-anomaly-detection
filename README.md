@@ -1,4 +1,4 @@
-# Visual Anomaly Detection Benchmark with Industrial Images
+# Anomaly Detection Benchmark with Industrial Images
 
 This is a simple industrial benchmark to study unsupervised anomaly detection models using Anomalib.
 The model performance is evaluated in terms of accuracy and efficiency, focusing on the classification task.
