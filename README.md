@@ -26,7 +26,9 @@ All the models can be tested seperately on the datasets to evaluate their perfor
 1. Install requirements: `pip install -r requirements.txt`
 2. Open the notebook `anomalib_benchmark.ipynb`
 3. Modify the configuration parameters at the top
-4. Run the cells to get the Results
+4. Run the cells to get the results
+
+You can also simply run the notebook in google colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hechtflorian/visual-anomaly-detection/blob/main/anomalib-benchmark.ipynb)
 
 Benchmark-Configuration:
 - First, please check if the requirements are installed correctly. If you are having trouble, please make sure to run the problem fixes in the installation part at the top.
@@ -34,7 +36,7 @@ Benchmark-Configuration:
 - Select model and image-size.
 - Optionally provide your dataset root. If you do not have the MVTec AD dataset, it will be downloaded automatically.
 - Also, you can optionally connect Comet Logger for Experiment management.
-- Now you can run the Benchmark. Please use the GPU for optimal results.
+- Now you can run the Benchmark. Please use the GPU for optimal results!
 
 Note: For the efficiency measurement, 100 runs are configured for demo cases. To get proper results, 1000 runs should be configured instead.
 
